@@ -2,8 +2,12 @@
     width: 50%;
 }
 
+nav.site-header.sticky-top.py-1{
+    background-color: #212529;
+}
 
-@media screen and (max-width: 870px){
+
+@media screen and (max-width: 767px){
     .bg-light.mr-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.overflow-hidden, .mr-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.text-white.overflow-hidden {
     min-width: 100%;
     }
