@@ -3,12 +3,148 @@
 }
 
 nav.site-header.sticky-top.py-1{
-    background-color: #212529;
+    background-color: #343a40;
+    z-index: 1;
+}
+
+a.py-2.d-none.d-md-inline-block{
+    color: white;
+}
+
+a.py-2{
+    color: white;
+}
+
+a.py-2:hover{
+    color: white;
+}
+
+.news{
+    width: 100%;
+    color: black;
+    padding: 20px;
+    text-align: left;
+    max-height: 270px; 
+    overflow: hidden; 
+}
+
+.discover:hover{
+    color: #007bff;
+}
+
+.my-3.py-3, .my-3.p-3{
+    background-color: #343a40;
+    border-radius: 21px;
+    border: white solid 3px;
+    transition: 500ms;
+}
+
+p.lead{
+    margin: 10px;
+}
+
+.my-3.p-3:hover{
+    border: #343a40 solid 3px;
+}
+
+.my-3.py-3:hover{
+    border: #343a40 solid 3px;
+}
+
+#box-1{
+    background-image: url(../img/box-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box-2{
+    background-image: url(../img/box-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box-3{
+    background-image: url(../img/box-3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box-4{
+    background-image: url(../img/box-4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box-5{
+    background-image: url(../img/box-5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#box-6{
+    background-image: url(../img/box-6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-light.box-shadow.mx-auto{
+    position: relative;
+}
+
+.my_box_button {  
+    color: #007bff; 
+} 
+
+.my_box_button:hover {  
+    color: #007bff; 
+} 
+
+.my_read_more { 
+    width: 100%;
+    background-color: #343a40;
+    text-align: center; 
+    padding: 10px 0; 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} 
+
+.read-more{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343a406b;
+    z-index: 10;
+    display: none;
+
+}
+
+.article-home{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    z-index: 15;
+    color: white;
+    display: none;
 }
 
 
-@media screen and (max-width: 767px){
+svg.d-block.mx-auto:hover{
+
+}
+
+@media screen and (max-width: 768px){
     .bg-light.mr-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.overflow-hidden, .mr-md-3.pt-3.px-3.pt-md-5.px-md-5.text-center.text-white.overflow-hidden {
     min-width: 100%;
     }
+
+    
 }
